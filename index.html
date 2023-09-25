@@ -108,7 +108,7 @@
   </div>
 
   <h2 class="section" ,="" align="left">Abstract</h2>
-  <p id="abstract" ,="" align="justify">
+  <p id="abstract" style="font-size: larger" align="justify">
     <b>ICCV2023 TEMPOR</b>
     The dynamics of biomolecules are crucial for our understanding of their functioning in living systems.
     However, current 3D imaging techniques, such as cryogenic electron microscopy (cryo-EM), require freezing the sample, which limits the observation of their conformational changes in real time.
@@ -121,7 +121,7 @@
   <hr>
 
   <h2 class="section" ,="" align="left">Method</h2>
-  <p id="method" ,="" align="justify">
+  <p id="method" style="font-size: larger" align="justify">
     TEMPOR utilizes a dynamic VAE to reconstruct real-time 3D dynamics of molecules from liquid-phase EM movies.
     First, movie is transformed into the Fourier domain and passed through the encoder, a temporal inference model, to infer the molecule's latent states.
     At each moment the latent state depends on the input movie and the previous latent state, and thus captures the low-dimensional dynamics of a molecule's conformational changes.
@@ -134,28 +134,28 @@
   </div>
   <hr>
 
-  <h2 class="section" ,="" align="left">Experiments</h2>
+  <h2 class="section" align="left">Experiments</h2>
 
-  <p id="experiments" ,="" align="justify">
+  <p id="experiments" style="font-size: larger" align="justify">
     We demonstrated the performance of TEMPOR on 7bcq (rigid linear motion) and Cas9 (non-rigid conformational motion) dataset by comparing it with the baseline approach, cryoDRGN.
     In this section, we assume that poses for each projection is known.
   </p>
 
-  <p id="experiments" ,="" align="justify">
+  <p id="experiments" style="font-size: larger" align="justify">
     7bcq dataset:
   </p>
   <div align="middle">
     <img src="TEMPOR_files/img/7bcq.png" width="100%">
   </div>
 
-  <p id="experiments" ,="" align="justify">
+  <p id="experiments" style="font-size: larger" align="justify">
     Cas9 dataset:
   </p>
   <div align="middle">
     <img src="TEMPOR_files/img/cas9.png" width="100%">
   </div>
 
-  <p id="experiments" ,="" align="justify">
+  <p id="experiments" style="font-size: larger" align="justify">
     We also utilized an amortized inference model to infer poses and tested our approach on Cas9 dataset without known poses.
     In this section, the baseline is HetEM. Our approach, TEMPOR, generates volumes with higher resolution and fewer errors in most cases.
   </p>
@@ -167,7 +167,7 @@
   <hr>
 
 
-  <h2 class="section" ,="" align="left">Citation</h2>
+  <h2 class="section" style="font-size: larger" align="left">Citation</h2>
   <p align="left">Ye E, Wang Y, Zhang H, et al. Recovering a Molecule's 3D Dynamics from Liquid-phase Electron Microscopy Movies[J]. arXiv preprint arXiv:2308.11927, 2023.</i><br></p>
   <hr>
 
